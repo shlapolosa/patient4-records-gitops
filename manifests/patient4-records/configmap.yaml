@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: patient4-records-config
+  namespace: default
+data:
+  APP_ENV: "production"
+  SERVICE_NAME: "patient4-records"
